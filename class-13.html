@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+</head>
+<body>
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            background-color: burlywood;
+        }
+        table, th, tr, td {
+            background: aquamarine;
+            text-align: center;
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 5px;
+        }
+        th, td, tr{
+            width: 300px;
+            height: 50px;
+        }
+        form{
+            background-image: url(back.png);
+            background-repeat: repeat-x;
+            text-align: center;
+            margin: 1px;
+            padding: 1px;
+        }
+        input {
+            text-align: center;
+            width: 200px;
+            height: 15px;
+            padding: 5px;
+            margin: 5px;
+            background: #f7f5f5;
+            color: blue;
+            border-radius: 20px;
+            border: 1px solid #000;
+        }
+
+
+
+    </style>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>ROLL</th>
+                    <th>Shift</th>
+                    <th>Department</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ROBIN</td>
+                    <td>01</td>
+                    <td>Day</td>
+                    <td>CMT</td>
+                </tr>
+                <tr>
+                    <td>ROMZAN</td>
+                    <td>02</td>
+                    <td>Day</td>
+                    <td>CMT</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <!-- <p>It is a table</p> -->
+            </tfoot>
+        </table>
+        <hr>
+    </div>  
+    
+    <div>
+        <form action="">
+            <label for=""></label>
+            <input type="text" placeholder="Username"><br>
+            <input type="password" placeholder="Password"><br>
+            <input type="number" placeholder="Phone Number"><br>
+            <input type="email" placeholder="Email"><br>
+            <input type="searh" placeholder="search"><br>
+            <input type="tel" placeholder="tel"><br>
+            <input type="time" placeholder="Time"><br>
+            <input type="date" placeholder="Date"><br>
+            <input type="week" placeholder="Week"><br>
+            <input type="month" placeholder="month"><br>
+            <input type="button" placeholder="button"><br>
+            <input type="color" placeholder="color"><br>
+            <input type="datetime-local" placeholder="datetime-local"><br>
+            <input type="file" placeholder="file"><br>
+            <input type="hidden" placeholder="hidden"><br>
+            <input type="image" placeholder="image"><br>
+            <input type="radio" placeholder="radio"><br>
+            <input type="url" placeholder="url"><br>
+            <input type="range" placeholder="range"><br>
+            <input type="reset" placeholder="reset"><br>
+            <input type="checkbox"><br>
+            <input type="checkbox" checked>
+            <input type="submit">
+            
+        </form>
+    </div>
+    
+</body>
+</html>
